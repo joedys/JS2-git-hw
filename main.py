@@ -15,7 +15,6 @@ def multi_sort(arr, cmp, method="None"):
 
 
 
-
 # must be in-place sort
 def merge_sort(arr, cmp):
     if len(arr) > 1:
@@ -80,3 +79,6 @@ def cmp(a, b):
         return 0
     else:
         return 1
+    
+#test new branch
+
